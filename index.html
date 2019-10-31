@@ -1,0 +1,414 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Moon 50th anniversary</title>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/space.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+	<style>
+		.shadow {
+			text-shadow: 2px 2px #000 !important;
+		}
+
+		.reveal .slides section .fragment.step-fade-in-then-out {
+			opacity: 0;
+			display: none;
+		}
+
+		.reveal .slides section .fragment.step-fade-in-then-out.current-fragment {
+			opacity: 1;
+			display: inline;
+		}
+
+		.reveal section.img_container {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		.reveal section img {
+			display: block;
+			margin: auto;
+			height: auto;
+			max-height: 100%;
+			width: auto;
+			max-width: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<!-- In between the <div="reveal"> and the <div class="slides">-->
+		<header
+			style="position: absolute;top: 0px; left: 0px; z-index:500; font-size:20px;background-color: rgba(25, 0, 255, 0.774)">
+		</header>
+		<!-- In between the <div="reveal"> and the <div class="slides">-->
+		<div class="slides">
+			<section data-background-image="/img/astronaut_moon.jpg" data-background-size="contain"
+				data-background-color="#000">
+				<h2 class="shadow">How the Impossible is Possible</h2>
+				<h4 class="shadow ">50th anniversary of the<br /> greatest achievement of mankind</h4>
+			</section>
+			<section data-background-video="/video/apollo11EditedTrailer.mp4">
+
+			</section>
+		
+			<section>
+				<video poster="img/kennedy_video_poster.png" data-autoplay>
+					<source src="/video/kennedy_moon.mp4" type="video/mp4" />
+				</video>
+				<a class="shadow"> United States President John F. Kennedy at Rice Stadium in Houston, Texas, on
+					September 12, 1962 </a>
+			</section>
+			<section data-background-image="/img/kennedy_and_von.jpg" data-background-opacity="0.3">
+				<h1 class="shadow">Mission</h1>
+				<p class="shadow">Nasa estimated that it had taken more than 400,000 engineers, scientists and technicians to accomplish the moon landings - reflecting the vast number of systems and subsystems needed to send men there.</p>
+				
+				<aside class="notes">
+						Dr. Wernher von Braun explains the Saturn launch system to John F. Kennedy at Cape
+						Canaveral, Nov. 16, 1963. (NASA)
+						https://www.theguardian.com/science/2009/jul/02/apollo-11-back-up-team
+					decision to go to the moon
+					https://history.nasa.gov/moondec.html
+					The near impossible task of managing this vast pyramid of people across America fell to the Apollo programme manager George Müller and, in a stroke of genius, he called upon the astronauts themselves for help
+				</aside>
+
+			</section>
+			<section data-background-image="/img/gravity-floating-in-space-750x400.jpg">
+
+				<h3 class="fragment">How to get to space </h3>
+				<h3 class="fragment fade-in shadow">and stay there </h3>
+			</section>
+			<section data-background-video="/video/gravitysucks.mp4" data-background-video-loop="true">
+				<h4 class="shadow">Earth love us all and<br/> does not want us to leave..... <br/>
+					gravity sucks </h4>
+			</section>
+			
+			<section data-background-image="/img/balloon.jpg">
+				<h4 class="shadow">Second lesson: It´s not about how high ....</h4>
+				<h4 class="fragment fade-in shadow">but it´s about how fast </h4>
+				<aside class="notes">
+					talk about planes/ balloons going high
+				</aside>
+			</section>
+			<section data-background-image="/img/windDrag.gif" >
+				<h4 class="shadow">Drag is a pain in the neck
+						$$ drag=\frac{1}{2}\rho AC_d v^{2} $$
+						$$ power=\frac{1}{2}\rho AC_d v^{3} $$
+			</section>
+			<section data-background-image="/img/chalkboard1.jpeg" data-background-opacity=0.2>
+				<h3 class="shadow">How much fast I need to go space <br />(around 160 km high)
+					<br />and not to fall back on Earth <br/>(but still falling forever)</h3>
+				<p class="fragment step-fade-in-then-out shadow">7,812.1m/s or 28123.56 Km/h<br />(that´s 6 times the speed of a sniper
+					rifle bullet)</p>
+				<p class="fragment step-fade-in-then-out shadow">So I need a vehicle to take me to this speed right?
+				</p>
+				<p class="fragment step-fade-in-then-out shadow">no.... faster, <br/>because you will need at least 1,200 m/s
+					to account for the atmosferic drag </p>
+				<p class="fragment step-fade-in-then-out shadow">so you will need to spent energy enough for 9,000 m/s </p>
+
+
+			</section>
+			<section data-background-image="/img/solarSubway.jpg" data-background-size="contain"
+				data-background-color="#fff">
+			</section>
+
+			<section data-background-image="/img/Tsiolkovsky.jpeg" data-background-size="contain">
+				<h6 class="shadow">Standing on giant shoulders</h6>
+				<h6 class="shadow">Tsiolkovsky Rocket Equation</h6>
+				<img src="/img/rocketEquation.png" />
+				<p class="fragment fade-in shadow" style="font-size: x-large;">Single-stage-to-orbit rocket: 88.4% of the
+						initial total mass has to be propellant. The remaining 11.6% is for the engines, the tank, and the
+						payload.</p>
+					<p class="fragment fade-in shadow" style="font-size: x-large;">Two-stage-to-orbit: 83.3% of the initial total
+						mass has to be propellant. The remaining 16.7% of the original launch mass is available for all
+						engines, the tanks, and payload.</p>
+				<aside class="notes">
+						Konstantin Eduardovich Tsiolkovsky (Russian: Константин Эдуардович Циолковский, IPA: [kənstɐnʲˈtʲin ɪdʊˈardəvʲɪtɕ tsɨɐlˈkofskʲɪj] (About this soundlisten); 17 September [O.S. 5 September] 1857  – 19 September 1935) was a Russian and Soviet rocket scientist and pioneer of the astronautic theory. Along with the French Robert Esnault-Pelterie, the German Hermann Oberth and the American Robert H. Goddard, he is considered to be one of the founding fathers of modern rocketry and astronautics.[2][3]
+		
+						How rockets work, talk about stages
+						https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation
+					</aside>
+			</section>
+			
+			
+			<section data-background-image="/img/apolloRollout.jpg" data-background-size="contain"
+				data-background-color="#fff">
+				<h1 class="fragment fade-out shadow">SATURN V</h1>
+				<h1 class="fragment fade-in shadow">Fuel and Bombs</h1>
+				<h3 class="fragment fade-in shadow">2.3 out of 2.8 million kilograms</h3>
+			</section>
+			<section data-background-image="/img/saturnVcolor.jpg" data-background-size="contain"
+				data-background-color="#fff">
+			</section>
+			<section data-background-image="/img/onTopOfSaturnV.jpg" data-background-size="contain"
+				data-background-color="#fff">
+				<aside class="notes">
+						Height: 111m tall (about the height of a 36-storey building)
+						Weight: Fully fuelled for lift-off, the Saturn V weighed 2.8 million kilograms, which is the same as about 400 elephants.
+						Power: The rocket generated 34.5 million newtons* of thrust at launch
+						Cost: The cost of the program was estimated at more than $25 billion, which would be more than $100 billion today.
+				</aside>
+			</section>
+			<section data-background-image="/img/Saturn_v_schematic_engines.jpg" data-background-size="contain"
+				data-background-color="#fff">
+				<h1 class="fragment fade-out shadow">83 engines</h1>
+				<aside class="notes">
+						FUEL PLUS HELIUM TO FILL THE TANKS
+						TALK ABOUT ullage
+				</aside>
+			</section>
+			<section data-background-image="/img/saturnComparison.png" data-background-size="contain"
+				data-background-color="#fff">
+				<aside class="notes">
+						Biggest machine everbuilded till this day						
+				</aside>
+			</section>
+			<section data-background-image="/img/S-IC_engines_and_Von_Braun.jpg" data-background-size="contain">
+				<aside class="notes">
+						Biggest machine everbuilded till this day						
+				</aside>
+			</section>
+			
+			<section data-background-image="/img/Agc_view.jpg" data-background-size="contain">
+				<h3 class="shadow">32,768 bits of RAM memory</h3>
+				<h3 class="shadow">72KB of Read Only Memory (ROM)</h3>
+				<h3 class="shadow">processor:0.043 MHz</h3>
+				
+				
+				<aside class="notes">
+					 simulator:	https://svtsim.com/moonjs/agc.html
+					 source code: https://github.com/chrislgarry/Apollo-11
+					 https://www.theatlantic.com/science/archive/2019/07/underappreciated-power-apollo-computer/594121/
+					 https://newatlas.com/apollo-11-guidance-computer/59766/
+					 try to imagine getting to the Moon using a Commodore 64 to handle the navigation and not break into a cold sweat.
+				</aside>
+				
+			</section>
+			<section data-background-image="/img/rope_memory.jpeg" data-background-size="contain">
+				<h1 class="shadow">Rope Memory</h1>
+				<aside class="notes">
+						On board Apollo 11 was a computer called the Apollo Guidance Computer (AGC). 
+						It had 2048 words of memory which could be used to store “temporary results” – data that is lost when there is no power. 
+						This type of memory is referred to as RAM (Random Access Memory). 
+						Each word comprised 16 binary digits (bits), with a bit being a zero or a one. This means that the Apollo computer had 32,768 bits of RAM memory.
+
+						In addition, it had 72KB of Read Only Memory (ROM), which is equivalent to 589,824 bits. This memory is programmed and cannot be changed once it is finalised.
+						The Apollo 11 computer had a processor – an electronic circuit that performs operations on external data sources – which ran at 0.043 MHz. The latest iPhone’s processor is estimated to run at about 2490 MHz. 
+				</aside>
+			</section>
+			<section data-background-video="/video/rope_memory.mp4">
+				<aside class="notes">
+						http://www.righto.com/2019/07/software-woven-into-wire-core-rope-and.html
+						To store the desired binary data, the core rope's sense lines were threaded through or around cores in the proper sequence. Originally, this wiring was done entirely manually, which was slow and error-prone. Raytheon improved the process by combining automated positioning with manual threading. First, the program's assembly code was fed into an assembler called YUL that produced a Mylar punched tape. An automated system (above, below) read this tape and step-by-step moved the proper core into position. A woman manually threaded the sense line through an aperture into the indicated core. The aperture then jogged down to pull the wire around a nylon pin, moving the wire out of the way for the next sense wire to be threaded. Once all the cores were threaded, the nylon pins were removed and the final core rope module was tested by an automated system, again controlled by punched tape.
+				</aside>
+			</section>
+			<section data-background-image="/img/margareth1.jpg" data-background-size="contain"
+				data-background-color="#fff" data-background-opacity=0.4>
+				<h1>We need software</h1>
+				<h3 class="fragment fade-in ">Bug free software</h3>
+				<h3 class="fragment fade-in ">Ready months before live deploy</h3>
+				<aside class="notes">
+					P01 apollo 8 error Margareth
+					https://www.youtube.com/watch?v=5nVqFFNdPdk
+					https://www.cbsnews.com/news/apollo-11-launch-meet-women-behind-historic-nasa-mission-to-the-moon-2019-07-16/
+				</aside>
+			</section>
+			<section data-background-video="/video/margaret_hamilton_on_software_engineering_edit.mp4">
+
+			</section>
+			
+			<section data-background-image="/img/chalkboard3.jpg">
+				<h1 class="shadow">Which way?</h1>
+				<h3 class="fragment fade-in shadow">To the right<br />right?</h3>
+				<aside class="notes">
+					Earth rotation 460 m/s
+					my target is 7,812.1m/s (almost 6%)
+
+					PHOTO DETAIL:Portrait of American aerospace engineer Dr John Houbolt (1919 - 2014) as he stands at a
+					chalkboard, July 24, 1962.
+				</aside>
+			</section>
+			<section data-background-video="/video/oldMoonMovie.mp4">
+				<h3 class="shadow">Let´s talk about orbital mechanics</h3>
+				<img src="/img/accelerateHere.jpg"/>
+				<aside class="notes">
+					Ballistic Trajectories,
+					"hit moon" where is going to be 2 1/2 days from now
+					https://oikofuge.com/how-apollo-got-to-the-moon/
+				</aside>
+			</section>
+			<section data-background-image="/img/freeReturn.jpg">
+				<h3 class="shadow">Free Return Trajectory</h3>
+			</section>
+
+			<section data-background-image="/img/AntipodeMoon.png" data-background-color="#fff">
+				<h1 class="fragment fade-out shadow">when to launch?</h1>
+				<h3 class="fragment fade-in shadow">Constraints:</h3>
+				<h3 class="fragment fade-in shadow">Free return trajectory (constraints landing sites)</h3>
+				<h3 class="fragment fade-in shadow">Day light on moon landing</h3>
+				<h3 class="fragment fade-in shadow">Moon antipode crossing space ship path</h3>
+			</section>
+			<section data-background-video="/video/apolloHD.mp4">
+				<h1 class="fragment fade-out shadow">Launch!</h1>
+			</section>
+			<section data-background-video="/video/barbecue_roll.mp4">
+				<h6 class="shadow">We are in space heading to the moon</h6>
+				<aside class="notes">
+						CM & LM transposition
+					barbecue roll,
+					breathing without scuba, radiation belts
+					The Apollo 11 stack is currently in its barbecue roll mode, more formally known as Passive Thermal Control.
+
+				</aside>
+			</section>
+
+			<section data-background-image="/img/sextant.jpg">
+				<h1 class="shadow">Navigation</h1>
+				<aside class="notes">
+					Sextant and Gimbal,
+					all balls
+				</aside>
+			</section>
+			<section data-background-image="/img/navigation_sextant.jpeg" data-background-size="contain">
+				<img class="fragment step-fade-in-then-out" src="/img/sextant_apollo.jpg"/>
+				<aside class="notes">
+					Sextant and Gimbal,
+					all balls
+				</aside>
+			</section>
+			<section data-background-image="/img/gimbal.jpg" data-background-size="contain">
+				
+				<aside class="notes">
+					Sextant and Gimbal,
+					all balls
+				</aside>
+			</section>
+			<section>
+					<section data-background-image="/img/missionProfileMoonLanding.png" data-background-size="contain">
+						<h1 class="fragment fade-out shadow">The moon, hit the breaks!</h1>
+						
+					</section>
+					<section data-background-image="/img/missionProfile.jpg" data-background-size="contain">
+					</section>
+			</section>
+			<section data-background-video="/video/ArmstrongCrash.mp4">
+				<h1 class="fragment fade-out shadow">Training</h1>
+			</section>
+			<section data-background-video="/video/landing.mp4">
+				<h1 class="fragment fade-out shadow">Landing</h1>
+			</section>
+			<section>
+					<section data-background-image="/img/missionProfileMoonLiftoff.png" data-background-size="contain">
+						<h1 class="fragment fade-out shadow">Liftoff and Rendevouz</h1>
+						
+					</section>
+					<section data-background-image="/img/missionProfile.jpg" data-background-size="contain">
+					</section>
+			</section>
+			<section data-background-video="/video/LiftoffFromMoon.mp4">
+				<h1 class="fragment fade-out shadow">going back together to command module</h1>
+			</section>
+			<section data-background-video="/video/rendevouz.mp4">
+					<h1 class="fragment fade-out shadow">rendevouz</h1>
+			</section>
+			<section data-background-image="/img/reentry.jpg" data-background-size="contain">
+				<h1 class="shadow">Reentry</h1>
+				<aside class="notes">
+						https://www.aulis.com/re-entrymatters.htm
+						
+				</aside>
+				
+			</section>
+			<section data-background-image="/img/crew.jpg" data-background-size="contain">
+				<h1 class="shadow">Thank you All</h1>
+				<aside class="notes">
+						https://www.aulis.com/re-entrymatters.htm
+						
+				</aside>
+			</section>
+			<section data-background-image="/img/missionProfile.jpg" data-background-size="contain">
+			</section>
+			
+			<section poster="img/astronaut_moon.jpg" data-background-image="/img/chalkboard2.jpg">
+				<h3 class="shadow">Today´s drill</h3>
+				<ul class="shadow">
+						<li class="shadow">The mission</li>
+						<li class="shadow">Space is hard</li>
+						<li class="shadow">Rockets</li>
+						<li class="shadow">Hardware</li>
+						<li class="shadow">Software</li>
+						<li class="shadow">Navigation</li>
+					</ul>
+			</section>
+			<section data-background-image="/img/chalkboard2.jpg">
+				<h4 class="shadow">Second lesson: It´s not about how high ....</h4>
+				<h4 class="fragment fade-in shadow">but about how fast </h4>
+				<p class="fragment step-fade-in-then-out">One</p>
+				<p class="fragment step-fade-in-then-out">Two</p>
+				<p class="fragment step-fade-in-then-out">Three</p>
+				<p class="fragment step-fade-in-then-out">Four</p>
+				<aside class="notes">
+					necessary burns:https://space.stackexchange.com/questions/4797/how-many-burns-did-the-apollo-11-mission-need
+				</aside>
+			</section>
+			<section data-background-video="/video/computer.mp4">
+				<h1 class="fragment fade-out shadow">We need a computer</h1>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			hash: true,
+			history: true,
+			
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true
+				},
+				{ src: 'plugin/math/math.js', async: true }
+			]
+		});
+	</script>
+</body>
+
+</html>
